@@ -1,9 +1,16 @@
-// import style from "./Button.module.css";
-// function Button() {
-//   return (
-//     <button type="submit" className={style.button}>
-//       Submit
-//     </button>
-//   );
-// }
-// export default Button;
+import styles from "./Button.module.css";
+console.log(styles);
+function Button({ onClick, children, title, disabled = false }) {
+  return (
+    <button
+      type="submit"
+      className={styles.button}
+      title={title}
+      onClick={onClick}
+      disabled={disabled}
+    >
+      {children}
+    </button>
+  );
+}
+export default Button;

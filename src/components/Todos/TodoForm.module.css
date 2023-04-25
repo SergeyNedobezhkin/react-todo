@@ -23,6 +23,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  background-color: beige;
 }
 .todoFormContainer button:hover {
   background-color: rgb(240, 240, 155);
