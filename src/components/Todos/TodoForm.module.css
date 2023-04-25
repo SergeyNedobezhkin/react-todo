@@ -14,17 +14,3 @@
   border-radius: 5px;
   padding: 10px 15px;
 }
-
-.todoFormContainer button {
-  width: 8%;
-  margin: 10px;
-  padding: 5px;
-  height: 50px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: beige;
-}
-.todoFormContainer button:hover {
-  background-color: rgb(240, 240, 155);
-}
